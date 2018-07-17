@@ -30,8 +30,7 @@ class App extends React.Component {
     // console.log(this.state);
     return (
       <div className="App">
-        <h1>Hello CodeSandbox</h1>
-        <h2>Start editing to see some magic happen!</h2>
+        <h1>Hello</h1>
         <p>{this.state.value}</p>
         <button onClick={this.handelIncrement}>+</button>
         <button onClick={this.handelDecrement}>-</button>
